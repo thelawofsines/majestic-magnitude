@@ -1,0 +1,29 @@
+{
+    "organizations": [
+        {
+            "name": "مركز العدل للمساعدة القانونية",
+            "url": "https://www.jcla-org.com/ar",
+            "image_url":"https://www.jcla-org.com/sites/all/themes/jcla/logo_ar.png"
+        },
+        {
+            "name": "الجمعية الأردنية للمصدر المفتوح",
+            "url": "https://josa.ngo/",
+            "image_url":"https://josa.ngo/_nuxt/img/logo-colored-ar.d53a833.svg"
+        },
+        {
+            "name": "مركز الفينيق للدراسات الاقتصادية والمعلوماتية",
+            "url": "https://phenixcenter.net/",
+            "image_url":"http://phenixcenter.net/wp-content/uploads/2019/10/2.png"
+        },
+        {
+            "name": "مركز حماية وحرية الصحفيين",
+            "url": "https://cdfj.org/",
+            "image_url":"https://cdfj.org/wp-content/uploads/2022/02/cdfj-logo-300x224-1.png"
+        },
+        {
+            "name": "منظمةأهل",
+            "url": "https://ahel.org/",
+            "image_url":"https://ahel.org/wp-content/uploads/2021/10/newlogoforwe-finaletrans.png"
+        }
+    ]
+}

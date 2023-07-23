@@ -1,0 +1,33 @@
+---
+const { organization } = Astro.props;
+---
+
+<div style="width:100%;max-width:400px; background:#e8ecf2"
+	class="m-auto my-4 p-8  rounded-lg shadow "
+>
+	<a href={organization.url}>
+		<img class="rounded-t-lg m-auto" src={organization.image_url}
+		style="max-height: 120px;" alt="" />
+	</a>
+	<div class="pt-8">
+		<a href="#">
+			<h5
+				class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-black"
+			>
+				{organization.name}
+			</h5>
+		</a>
+		<!-- <hr /> -->
+		<!-- <p class="mt-4 font-normal text-gray-700 ">
+			{organization.description}
+		</p>-->
+	
+		<!-- <a
+			href="#"
+			class="inline-flex items-center text-lg font-bold text-black rounded-lg"
+		>
+			اقرأ المزيد
+		</a> -->
+	</div>
+</div>
+<style></style>

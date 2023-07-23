@@ -1,0 +1,74 @@
+---
+import Layout from "../layouts/Layout.astro";
+import OrganizationCard from "../components/OrganizationCard.astro";
+
+import surveillance from "../images/global/surveillance.svg";
+import socialmedia from "../images/global/social_media.svg";
+import data from "../data/organizations.json";
+const { organizations } = data;
+---
+
+<Layout title="ارفض الجرائم الإلكترونية">
+  <main class="m-auto bg-primary">
+    <p
+      class="text-center font-bold text-2xl pt-16"
+      style="line-height:1.4;  color:white;"
+    >
+      2023
+    </p>
+    <h1
+      class="text-5xl text-center px-4 py-8 md:text-7xl md:py-8 font-bold"
+      style="line-height:1.4; color:white;"
+    >
+      حملة ارفض الجرائم الإلكترونية
+    </h1>
+    <p
+      style="line-height:1.4; color:white; max-width:1300px"
+      class="container m-auto px-4 md:px-16 text-center text-2xl sm:text-2xl md:text-3xl pb-16"
+    >
+      يندرج على جدول أعمال الدورة الاستثنائية لمجلس النواب مشروع قانون الجرائم
+      الإلكترونية لسنة 2023. يشتمل القانون على العديد من المواد الإشكالية التي
+      تجرم عشرات من أشكال التعبير وانتقاد الحكومة والعمل الصحفي، مما سيحول
+      الإنترنت من نافذتك الى العالم إلى <b>طريقك إلى الزنزانة</b> ودفع عشرات آلاف
+      الدنانير من الغرامات.
+    </p>
+  </main>
+
+  <main class="container m-auto mt-6">
+    <div
+      class="bg-white rounded-xl drop-shadow-md p-8 md:grid grid-cols-2 gap-4"
+    >
+      <p class="m-auto pt-8 bg-white rounded-xl text-xs md:text-md" style="line-height:1.4">
+        تهدف حملة  «ارفض الجرائم الإلكترونية»  لتوعية الأردنيين بخطر إقرار مشروع قانون الجرائم الإلكترونية لسنة 2023. يعتدي هذا المشروع على حقوق الدستورية للأردنيين ويجرم انتقاد الحكومة ويحتوي العديد من المصطلحات الفضفاضة التي تجعل من غالبية الأردنيين عرضة لسطوة السلطة التنفيذية بأدوات قانونية. نطلب من مجلس النواب رفض القانون كونه يشتمل على أخطاء وهفوات كثيرة لن يتم تصحيحها في أيام قليلة.
+
+      </p>
+      <div>
+        <!-- <button
+            class="m-auto rounded-full bg-primary text-light p-4 mt-4 text-xs md:text-md"
+            >لمعرفة المزيد عن القانون انقر/ي هنا</button
+          > -->
+          <img class="my-4 mx-2 w-full" src={"keyboard.jpeg"} alt="" />
+      </div>
+     
+    </div>
+  </main>
+</Layout>
+<div style="background:#f3f3f3;" class=" py-16">
+  <div class="container m-auto mt-8">
+    <div class="mx-4">
+      <h1 class="text-4xl pb-8 text-center">المنظمات الداعمة</h1>
+      <ul
+        role="list"
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
+      >
+        {
+          organizations.map((organization) => (
+            <OrganizationCard organization={organization} />
+          ))
+        }
+      </ul>
+    </div>
+  </div>
+</div>
+
+<style></style>
