@@ -5,12 +5,12 @@ const { organization } = Astro.props;
 <div style="width:100%;max-width:400px; background:#e8ecf2"
 	class="m-auto my-4 p-8  rounded-lg shadow "
 >
-	<a href={organization.url}>
+	<a href={organization.url} target="_blank">
 		<img class="rounded-t-lg m-auto" src={organization.image_url}
 		style="max-height: 120px;" alt="" />
 	</a>
 	<div class="pt-8">
-		<a href="#">
+		<a href={organization.url} target="_blank">
 			<h5
 				class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-black"
 			>
