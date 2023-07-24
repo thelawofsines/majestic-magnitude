@@ -3,22 +3,51 @@
         {
             "name": "مركز العدل للمساعدة القانونية",
             "url": "https://www.jcla-org.com/ar",
-            "image_url":"https://www.jcla-org.com/sites/all/themes/jcla/logo_ar.png"
-        },
-        {
-            "name": "الجمعية الأردنية للمصدر المفتوح",
-            "url": "https://josa.ngo/",
-            "image_url":"https://josa.ngo/_nuxt/img/logo-colored-ar.d53a833.svg"
-        },
-        {
-            "name": "مركز الفينيق للدراسات الاقتصادية والمعلوماتية",
-            "url": "https://phenixcenter.net/",
-            "image_url":"http://phenixcenter.net/wp-content/uploads/2019/10/2.png"
+            "image_url": "https://www.jcla-org.com/sites/all/themes/jcla/logo_ar.png"
         },
         {
             "name": "مركز حماية وحرية الصحفيين",
             "url": "https://cdfj.org/",
-            "image_url":"https://cdfj.org/wp-content/uploads/2022/02/cdfj-logo-300x224-1.png"
-        } 
+            "image_url": "https://cdfj.org/wp-content/uploads/2022/02/cdfj-logo-300x224-1.png"
+        },
+        {
+            "name": "الجمعية الأردنية للمصدر المفتوح",
+            "url": "https://josa.ngo/",
+            "image_url": "https://josa.ngo/_nuxt/img/logo-colored-ar.d53a833.svg"
+        },
+        {
+            "name": "مركز الفينيق للدراسات الاقتصادية والمعلوماتية",
+            "url": "https://phenixcenter.net/",
+            "image_url": "http://phenixcenter.net/wp-content/uploads/2019/10/2.png"
+        },
+        {
+            "name": "مؤسسة صداقة",
+            "url": "https://sadaqajo.org/",
+            "image_url": "https://sadaqajo.org/wp-content/uploads/2022/05/sadaqa-logo.png"
+        },{
+            "name": "جمعية معهد تضامن النساء الأردني",
+            "url": "https://www.sigi-jordan.org/",
+            "image_url": "https://www.sigi-jordan.org/_next/image?url=https%3A%2F%2Fmwapi.sigi-jordan.org%2Fpublic%2Fstorage%2F877993618407682.png&w=3840&q=75"
+        },{
+            "name": "رشيد للنزاهة والشفافية",
+            "url": "https://rasheedti.org/",
+            "image_url": "https://rasheedti.org/wp-content/uploads/2020/07/New-Logowith-colors-1.png"
+        },{
+            "name": "المركز الدولي للقانون غير الهادف للربح",
+            "url": "https://www.icnl.org/resources/civic-freedom-monitor/jordan",
+            "image_url": "icnl.png"
+        },{
+            "name": "جمعية النساء العربيات",
+            "url": "https://awo.org.jo/",
+            "image_url": "https://awo.org.jo/wp-content/uploads/2022/10/headerLogo.png"
+        },{
+            "name": "مؤسسة رواد التنمية",
+            "url": "https://www.ruwwad.ngo/ar",
+            "image_url": "https://www.ruwwad.ngo/themes/ruwwad/images/logo.png"
+        },{
+            "name": "مؤسسة شركاء الأردن",
+            "url": "https://www.partners-jordan.org/",
+            "image_url": "https://www.partners-jordan.org/images/logo.png"
+        }
     ]
 }
