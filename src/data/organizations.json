@@ -48,6 +48,18 @@
             "name": "مؤسسة شركاء الأردن",
             "url": "https://www.partners-jordan.org/",
             "image_url": "https://www.partners-jordan.org/images/logo.png"
+        },{
+            "name": "مؤسسة أهل",
+            "url": "https://ahel.org/",
+            "image_url": "https://ahel.org/wp-content/uploads/2021/10/newlogoforwe-finaletrans.png"
+        },{
+            "name": "مركز عدالة لحقوق الانسان",
+            "url": "https://www.adaleh-center.org/",
+            "image_url": "adaleh.jpg"
+        },{
+            "name": "جمعية اتحاد المرأة الأردنية ",
+            "url": "https://www.jwu.org.jo/ar",
+            "image_url": "https://www.jwu.org.jo/themes/custom/jwu/logo.svg"
         }
     ]
 }
